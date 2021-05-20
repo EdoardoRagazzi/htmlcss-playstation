@@ -6,8 +6,10 @@
 }
 /*----JUMBOTROON----*/
 #jumbotroon{
-    background-color: cornflowerblue;
+    
     height: 500px;
+    background-image: url(/img/returnal.jpg);
+    background-size: cover;
 }
 /*----CONSOLE5-----*/
 #console5{
