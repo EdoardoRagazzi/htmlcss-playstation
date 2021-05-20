@@ -9,10 +9,10 @@
 }
 #console5{
     background-color: blueviolet;
-    height: 600px;
+    
 }
 .box{
     background-color: brown;
     height: 100px;
-    width: 100px;
+    width: 100%;
 }
