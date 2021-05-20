@@ -1,16 +1,41 @@
-.debug .nav{
+ /*-----HEADER / NAV-----*/
+ .nav{
     background-color: blue;
     height: 100px;
     
 }
+/*----JUMBOTROON----*/
 #jumbotroon{
     background-color: cornflowerblue;
-    height: 200px;
+    height: 500px;
 }
+/*----CONSOLE5-----*/
 #console5{
     background-color: blueviolet;
     
 }
+/*----ADVENTURE-----*/
+#adventure{
+    background-color:grey;
+    height: 500px;
+}
+/*----NEWENTRY----*/
+#newentry{
+    background-color: black;
+}
+#playstationplus{
+    background-color: cadetblue;
+}
+#playstationstore{
+    background-color: darkcyan;
+}
+#playstationnow{
+    background: darkkhaki;
+}
+#socialmedia{
+    background-color: darkslateblue;
+}
+/*-----BOX-----*/
 .box{
     background-color: brown;
     height: 100px;
