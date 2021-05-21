@@ -1,94 +1,80 @@
-
-
 /*-----HEADER / NAV-----*/
 .nav {
   background-color: blue;
   height: 100px;
 }
-
 .sony {
   background-color: black;
   height: 40px;
 }
-
 .m-70 {
   margin-bottom: 70px;
 }
-
 .img {
   height: 70px;
   width: 100px;
   float: right;
   margin-right: 30px;
 }
-
 header {
   height: 100px;
 }
-
 /*----JUMBOTROON----*/
-#jumbotroon {
+#jumbotroon .row{
   background-image: url(../img/jumbo-bg.png);
   height: 700px;
   background-position: center;
   background-size: 100% 100%;
 }
-
 /*----CONSOLE5-----*/
-
-
 nav {
   width: 100vw;
 }
-
 /*----ADVENTURE-----*/
-#adventure {
-  background-color: grey;
-  height: 500px;
+#adventure .row{
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: 100% 100%;
 }
-
 /*----NEWENTRY----*/
 #newentry {
   background-color: black;
 }
-
 #playstationplus {
   background-color: cadetblue;
 }
-
 #playstationstore {
   background-color: darkcyan;
 }
-
 #playstationnow {
   background: darkkhaki;
 }
-
 #socialmedia {
   background-color: darkslateblue;
 }
-
+#console4{
+    height: 700px;
+}
 /*-----BOX-----*/
-.box-img img {
+.box-img img, .box img{
   height: 100%;
   width: 100%;
 }
-
 .box-img {
   height: 100px;
   width: 200px;
   cursor: pointer;
+}
+#newentry .box-img{
+  height: 100px;
+  width: 100%;
 }
 .box {
   background-color: brown;
   height: 100px;
   width: 100%;
 }
-#console5 .box img{
-    height: 100%;
-    width: 100%;
-}
-
 /*----GRADIENT BORDER CONSOLE 5----*/
 .gradient-border {
     --border-width: 3px;
@@ -102,7 +88,6 @@ nav {
     font-family: Lato, sans-serif;
     font-size: 2.5rem;
     text-transform: uppercase;
-   
     background: #222;
     border-radius: var(--border-width);
 }
@@ -130,8 +115,6 @@ nav {
       border-radius: calc(2 * var(--border-width));
       animation: moveGradient 4s alternate infinite;
 }
-  
-  
   @keyframes moveGradient {
     50% {
       background-position: 100% 50%;
