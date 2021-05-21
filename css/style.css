@@ -1,65 +1,143 @@
- /*-----HEADER / NAV-----*/
- .nav{
-    background-color: blue;
-    height: 100px;
-    
+
+
+/*-----HEADER / NAV-----*/
+.nav {
+  background-color: blue;
+  height: 100px;
 }
-.sony{
-    background-color: black;
-    height: 40px;
+
+.sony {
+  background-color: black;
+  height: 40px;
 }
-.m-70{
-    margin-bottom: 70px;
+
+.m-70 {
+  margin-bottom: 70px;
 }
-.img{
-    height: 70px;
-    width: 100px;
-    float: right;
-    margin-right: 30px;
+
+.img {
+  height: 70px;
+  width: 100px;
+  float: right;
+  margin-right: 30px;
 }
-header{
-    height: 100px;
+
+header {
+  height: 100px;
 }
+
 /*----JUMBOTROON----*/
-#jumbotroon{
-    background-image: url(../img/jumbo-bg.png);
-    height: 700px;
-    
-    background-position: center;
-    background-size: 100% 100%;
+#jumbotroon {
+  background-image: url(../img/jumbo-bg.png);
+  height: 700px;
+  background-position: center;
+  background-size: 100% 100%;
 }
+
 /*----CONSOLE5-----*/
-#console5{
-    background-color: blueviolet;
-    
+#console5 {
+ 
 }
-nav{
-    width: 100vw;
+
+nav {
+  width: 100vw;
 }
+
 /*----ADVENTURE-----*/
-#adventure{
-    background-color:grey;
-    height: 500px;
+#adventure {
+  background-color: grey;
+  height: 500px;
 }
+
 /*----NEWENTRY----*/
-#newentry{
-    background-color: black;
+#newentry {
+  background-color: black;
 }
-#playstationplus{
-    background-color: cadetblue;
+
+#playstationplus {
+  background-color: cadetblue;
 }
-#playstationstore{
-    background-color: darkcyan;
+
+#playstationstore {
+  background-color: darkcyan;
 }
-#playstationnow{
-    background: darkkhaki;
+
+#playstationnow {
+  background: darkkhaki;
 }
-#socialmedia{
-    background-color: darkslateblue;
+
+#socialmedia {
+  background-color: darkslateblue;
 }
+
 /*-----BOX-----*/
-.box{
-    background-color: brown;
-    height: 100px;
+.box-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.box-img {
+  height: 100px;
+  width: 200px;
+  cursor: pointer;
+}
+.box {
+  background-color: brown;
+  height: 100px;
+  width: 100%;
+}
+#console5 .box img{
+    height: 100%;
     width: 100%;
 }
+
+/*----GRADIENT BORDER CONSOLE 5----*/
+.gradient-border {
+    --border-width: 3px;
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    font-family: Lato, sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+   
+    background: #222;
+    border-radius: var(--border-width);
+}
+.gradient-border::after {
+      position: absolute;
+      content: "";
+      top: calc(-1 * var(--border-width));
+      left: calc(-1 * var(--border-width));
+      z-index: -1;
+      width: calc(100% + var(--border-width) * 2);
+      height: calc(100% + var(--border-width) * 2);
+      background: linear-gradient(
+        60deg,
+        hsl(224, 85%, 66%),
+        hsl(269, 85%, 66%),
+        hsl(314, 85%, 66%),
+        hsl(359, 85%, 66%),
+        hsl(44, 85%, 66%),
+        hsl(89, 85%, 66%),
+        hsl(134, 85%, 66%),
+        hsl(179, 85%, 66%)
+      );
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: calc(2 * var(--border-width));
+      animation: moveGradient 4s alternate infinite;
+}
+  
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+  
+/*---- END GRADIENT BORDER CONSOLE 5----*/
