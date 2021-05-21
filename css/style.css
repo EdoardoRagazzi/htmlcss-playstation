@@ -4,17 +4,34 @@
     height: 100px;
     
 }
+.sony{
+    background-color: black;
+    height: 40px;
+}
+.img{
+    height: 70px;
+    width: 100px;
+    float: right;
+    margin-right: 30px;
+}
+header{
+    height: 100px;
+}
 /*----JUMBOTROON----*/
 #jumbotroon{
+    background-image: url(../img/jumbo-bg.png);
+    height: 700px;
     
-    height: 500px;
-    background-image: url(/img/returnal.jpg);
-    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
 }
 /*----CONSOLE5-----*/
 #console5{
     background-color: blueviolet;
     
+}
+nav{
+    width: 100vw;
 }
 /*----ADVENTURE-----*/
 #adventure{
