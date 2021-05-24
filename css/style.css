@@ -46,16 +46,18 @@ nav {
 }
 /*----NEWENTRY----*/
 #newentry {
-  background-color: black;
+  background-color: #1F1F1F;
 }
+
+
 #playstationplus {
   background-color: cadetblue;
 }
 #playstationstore {
-  background-color: darkcyan;
+  background-color: white;
 }
 #playstationnow {
-  background: darkblue;
+  background: #161C3B;
 }
 #socialmedia {
   background-color: white;
@@ -92,10 +94,7 @@ nav {
   width: 200px;
   cursor: pointer;
 }
-#newentry .box-img{
-  height: 100px;
-  width: 100%;
-}
+
 
 /*-----FOOTER------*/
 footer{
