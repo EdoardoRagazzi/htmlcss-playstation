@@ -53,9 +53,6 @@ nav {
 #socialmedia {
   background-color: darkslateblue;
 }
-#console4{
-    height: 700px;
-}
 /*-----BOX-----*/
 .box-img img, .box img{
   height: 100%;
@@ -70,7 +67,7 @@ nav {
   height: 200px;
 }
 .box-img {
-  height: 100px;
+  
   width: 200px;
   cursor: pointer;
 }
