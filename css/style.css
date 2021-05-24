@@ -96,14 +96,16 @@ nav {
   height: 100px;
   width: 100%;
 }
-.box {
-  background-color: brown;
-  
-  
-}
+
 /*-----FOOTER------*/
 footer{
   background-color: blue;
+}
+footer svg{
+  background-color: white;
+}
+footer li{
+  list-style: none;
 }
 
 /*----GRADIENT BORDER CONSOLE 5----*/
