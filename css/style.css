@@ -61,6 +61,14 @@ nav {
   height: 100%;
   width: 100%;
 }
+.boxy{
+  width: 200px;
+  height:100%;
+}
+.boxy img{
+  width: 200px;
+  height: 200px;
+}
 .box-img {
   height: 100px;
   width: 200px;
