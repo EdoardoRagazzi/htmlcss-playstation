@@ -7,9 +7,6 @@
   background-color: black;
   height: 40px;
 }
-.m-70 {
-  margin-bottom: 70px;
-}
 .img {
   height: 70px;
   width: 100px;
@@ -20,22 +17,32 @@ header {
   height: 100px;
 }
 /*----JUMBOTROON----*/
-#jumbotroon .row{
+#jumbotroon {
   background-image: url(../img/jumbo-bg.png);
-  height: 700px;
+  padding: 100px 0px;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+#jumbotroon img{
+  max-width: 60%;
+}
+
 /*----CONSOLE5-----*/
 nav {
   width: 100vw;
 }
 /*----ADVENTURE-----*/
-#adventure .row{
+#adventure{
     background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
-    height: 700px;
+    padding: 50px 0px;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#adventure img{
+  max-width: 60%;
+
 }
 /*----NEWENTRY----*/
 #newentry {
@@ -59,12 +66,12 @@ nav {
   width: 100%;
 }
 .boxy{
-  width: 200px;
-  height:100%;
+  
+  
 }
 .boxy img{
-  width: 200px;
-  height: 200px;
+  height: 100%;
+  width: 100%;
 }
 .box-img {
   
