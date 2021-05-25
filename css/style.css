@@ -42,14 +42,11 @@ nav {
 }
 #adventure img{
   max-width: 60%;
-
 }
-/*----NEWENTRY----*/
+/*----SECTIONS----*/
 #newentry {
   background-color: #1F1F1F;
 }
-
-
 #playstationplus {
   background-color: cadetblue;
 }
@@ -66,36 +63,25 @@ nav {
   background-color: lightgrey;
   width: 100%;
 }
+#console5 .box-img:hover{
+border-bottom: 2px solid blue ;
+border-width: thick;
+}
+
+/*-----BOX-----*/
+.box-img img, .box img, .boxy img{
+  height: 100%;
+  width: 100%;
+}
+
+.box-img {
+   width: 200px;
+  cursor: pointer;
+}
 .plusimage img {
   width: 100%;
   height: 100%;
 }
-@media screen and ( max-width:850px) {
-  .plusimage img{
-    display:none;
-  }
-}
-/*-----BOX-----*/
-.box-img img, .box img{
-  height: 100%;
-  width: 100%;
-}
-.box img{
-  height: 100%;
-  width: 100%;
-}
-
-.boxy img{
-  height: 100%;
-  width: 100%;
-}
-.box-img {
-  
-  width: 200px;
-  cursor: pointer;
-}
-
-
 /*-----FOOTER------*/
 footer{
   background-color: blue;
@@ -106,7 +92,12 @@ footer svg{
 footer li{
   list-style: none;
 }
-
+/*--------QUERY---------*/
+@media screen and ( max-width:850px) {
+  .plusimage img{
+    display:none;
+  }
+}
 /*----GRADIENT BORDER CONSOLE 5----*/
 .gradient-border {
     --border-width: 3px;
