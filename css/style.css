@@ -16,6 +16,10 @@
 header {
   height: 100px;
 }
+.nav-item ul{
+  width: 100vw;
+  background-color: blueviolet;
+}
 /*----JUMBOTROON----*/
 #jumbotroon {
   background-image: url(../img/jumbo-bg.png);
@@ -27,6 +31,7 @@ header {
 #jumbotroon img{
   max-width: 60%;
 }
+
 
 /*----CONSOLE5-----*/
 nav {
@@ -72,6 +77,9 @@ border-width: thick;
 .box-img img, .box img, .boxy img{
   height: 100%;
   width: 100%;
+}
+.box{
+  cursor: pointer;
 }
 
 .box-img {
